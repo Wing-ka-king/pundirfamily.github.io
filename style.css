@@ -11,16 +11,8 @@ body {
     border: 1px solid #000;
 }
 
-.person {
-    padding: 20px;
-    margin: 5px;
-    border: 1px solid #ccc;
-    text-align: center;
-    cursor: pointer;
-}
-
 .male {
-    background-color: #0fa3e7;
+    fill: #0fa3e7;
 }
 
 .female {
@@ -29,13 +21,36 @@ body {
 
 .frame {
         width: 300px;
-        height: 200px;
-        padding: 20px;
-        background: url('img/frame.jpg') no-repeat center/cover;
+        height: 400px;
+        background: url('img/frame3-removebg.png') no-repeat center/cover;
         background-size: contain;
-        text-align: center;
         position: relative;
         box-sizing: border-box;
+}
+
+.frame-empty {
+        width: 300px;
+        height: 400px;
+        background: url('') no-repeat center/cover;
+        background-size: contain;
+        position: relative;
+        box-sizing: border-box;
+        left: -10%;
+}
+
+.framed-content {
+    position: absolute;
+    top: 24.1%; /* Adjust the top position as needed */
+    left: 24.5%; /* Adjust the left position as needed */
+    width: 150px; /* Adjust the width as needed */
+    height: 210px; /* Adjust the height as needed */
+    padding: 10px;
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    overflow: auto; /* Ensure content inside can be scrolled if it overflows */
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+
 }
 
 .family-tree {
