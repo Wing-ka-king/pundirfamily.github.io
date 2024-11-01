@@ -7,19 +7,15 @@ body {
     flex-direction: row; /* Align items horizontally */
     flex-wrap: nowrap; /* Prevent wrapping to the next line */
     justify-content: space-around; /* Distribute space between items */
-    padding: 1px;
+    padding: 20px;
 }
 
 .couple {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 50px;
     border: 1px solid #000;
-}
-
-.male {
-    fill: #0fa3e7;
-}
-
-.female {
-    background-color: #ffc0cb;
 }
 
 .frame {
@@ -57,7 +53,6 @@ body {
 
 .family-tree {
     display: flex;
-    flex-direction: column;
     align-items: center;
 }
 
