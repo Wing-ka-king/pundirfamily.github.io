@@ -39,10 +39,10 @@ body {
 
 .framed-content {
     position: absolute;
-    top: 24%; /* Adjust the top position as needed */
-    left: 24%; /* Adjust the left position as needed */
+    top: 23.8%; /* Adjust the top position as needed */
+    left: 23.5%; /* Adjust the left position as needed */
     width: 140px; /* Adjust the width as needed */
-    height: 200px; /* Adjust the height as needed */
+    height: 195px; /* Adjust the height as needed */
     padding: 10px;
     box-sizing: border-box; /* Include padding and border in the element's total width and height */
     overflow: auto; /* Ensure content inside can be scrolled if it overflows */
