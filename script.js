@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const nodes = document.querySelectorAll('.node');
+    const nodes = document.querySelectorAll('.person');
     const modal = document.getElementById('modal');
     const modalContent = document.querySelector('.modal-content');
     const span = document.getElementsByClassName('close')[0];

@@ -17,6 +17,7 @@ body {
     border: 1px solid #ccc;
     background-color: #e70f0f;
     text-align: center;
+    cursor: pointer;
 }
 
 .family-tree {
