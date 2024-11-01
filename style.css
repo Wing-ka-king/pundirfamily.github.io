@@ -39,7 +39,7 @@ body {
 
 .framed-content {
     position: absolute;
-    top: 23.3%; /* Adjust the top position as needed */
+    top: 23%; /* Adjust the top position as needed */
     left: 22.5%; /* Adjust the left position as needed */
     width: 140px; /* Adjust the width as needed */
     height: 198px; /* Adjust the height as needed */
