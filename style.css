@@ -22,7 +22,7 @@ body {
 .frame {
         width: 300px;
         height: 400px;
-        background: url('/img/frame3.jpg') no-repeat center/cover;
+        background: url('img/frame3.jpg') no-repeat center/cover;
         background-size: contain;
         position: relative;
         box-sizing: border-box;
