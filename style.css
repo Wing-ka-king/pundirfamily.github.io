@@ -27,11 +27,11 @@ body {
     background-color: #ffc0cb;
 }
 
-.late {
+.frame {
         width: 300px;
         height: 200px;
         padding: 20px;
-        background: url('/img/frame.jpg') no-repeat center/cover;
+        background: url('img/frame.jpg') no-repeat center/cover;
         background-size: contain;
         text-align: center;
         position: relative;
