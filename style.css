@@ -8,6 +8,9 @@ body {
     flex-wrap: nowrap; /* Prevent wrapping to the next line */
     justify-content: space-around; /* Distribute space between items */
     padding: 1px;
+}
+
+.couple {
     border: 1px solid #000;
 }
 
