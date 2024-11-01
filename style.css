@@ -2,6 +2,23 @@ body {
     font-family: Arial, sans-serif;
 }
 
+.generation {
+    display: flex;
+    flex-direction: row; /* Align items horizontally */
+    flex-wrap: nowrap; /* Prevent wrapping to the next line */
+    justify-content: space-around; /* Distribute space between items */
+    padding: 10px;
+    border: 1px solid #000;
+}
+
+.person {
+    padding: 20px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    background-color: #e70f0f;
+    text-align: center;
+}
+
 .family-tree {
     display: flex;
     flex-direction: column;
